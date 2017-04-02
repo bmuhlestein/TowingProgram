@@ -1,7 +1,22 @@
-public class test1 
+import java.util.*;
+
+public class test1
 {
   public static void main (String[] args)
   {
+    Scanner in = new Scanner (System.in);
+
     System.out.println("This is a test");
+
+    String sFirstName;
+    int iAge;
+
+    System.out.println("Please enter your first name");
+    sFirstName = in.nextLine();
+
+    System.out.println("Please enter your age");
+    iAge = in.nextInt();
+
+    System.out.println(sFirstName + iAge);
   }
 }
