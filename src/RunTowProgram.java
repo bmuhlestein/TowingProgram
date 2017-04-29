@@ -11,7 +11,7 @@ public class RunTowProgram
 
         //Variables
         String sTowVehicle;
-
+        int iGVWR;
 
         //Welcome
         System.out.println("Welcome to the Towing Calculator.");
@@ -22,7 +22,11 @@ public class RunTowProgram
         System.out.println("\nPlease enter your a name to distinguish your towing vehicle.");
         sTowVehicle = in.nextLine();
 
+        //Setting up tow vehicle
         TowingVehicle v1 = new TowingVehicle(sTowVehicle);
+
+        System.out.println("\nPlease enter " + sTowVehicle + "'s GVWR (Gross Vehicle Weight Rating):");
+        iGVWR = in.nextInt();
 
 
 
