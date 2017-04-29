@@ -3,13 +3,13 @@
  */
 import java.util.*;
 
-public class TowingVehicle
-{
+public class TowingVehicle {
     private String towVehicleName;
+    private int iGVWR;
 
 
     //Constructor that sets the name of the two vehicle
-    public TowingVehicle (String n)
+    public TowingVehicle(String n)
     {
         this.towVehicleName = n;
     }
@@ -18,6 +18,8 @@ public class TowingVehicle
     {
         return this.towVehicleName;
     }
+
+
 
 
 
