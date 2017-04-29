@@ -3,5 +3,5 @@
  */
 public class TowingCalculations
 {
-
+    int iAge = 1;
 }
